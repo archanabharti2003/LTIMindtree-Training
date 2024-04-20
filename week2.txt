@@ -1,0 +1,39 @@
+CREATING  VIRTUAL 
+
+1. login to aws console
+2. E2C
+3. launch instances
+4.write name and tag  then select amazon linux
+5.give key pair name here devOps_key
+6. launch instances
+7. click on the blue link after This
+8. click on console
+9.go to instance summery URL,then click on connect
+10.go to ssh
+11.inside insatnce id copy 3rd command
+12. copy command inside example and run in console a pattern is generated.
+13.then run command in terminal:- sudo yum update -y
+14. then run command :- sudo yum install httpd -y
+15. then run :- sudo service httpd start
+16.  run command:- sudo yum install git -y
+17. check version git --version
+18. run command git init
+19. create github new repository and copy https link ,run in console git clone <link>
+20. cd <reponame>.
+21.run command  ls
+22.run command git config --global user.email <abc@gmail.com>
+23. run command git config --global user.name <name>
+24. run command vi testfile.txt , then press i then write content 
+25. press esc -> : -> wq.
+26. then check status -> run command git status
+27. run command git add -A
+28. run command git commit -m <message>
+29. run command git log
+30. run command git blame testfile.txt
+31. run command git pull origin main
+32. run command git branch -vv
+33. run command git push origin main
+34. enter password. if not work then go to github ,then setting ,then developer setting , go to personal access tokens then Tokens(classic) then generate tokens and paste in console.
+35.run command ssh-keygen -t rsa -b 4009 -C <email> then there is option to choose file for generation of key then paste the same location (/home/ec2-user/.ssh/id_rsa) given there and press enter enter .
+36. run command eval `ssh-agent -s`.
+37. run command ssh-add /home/ec2-user/.ssh/id_rsa
