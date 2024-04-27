@@ -1,1 +1,9 @@
 week 3
+
+1. AWS EC2 windows virtual Machine creation.
+2. WINSCP download
+3. Putty download 
+4. Github Account
+5. AWS Account open
+6. EC2 instance Creation (create key pair with ppk for putty).
+7. Git Branch.
