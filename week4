@@ -1,1 +1,7 @@
+1. ls
+2. ls -al
+3. sudo apt update
+4. clear
+5. sudo apt install openjdk-8-jdk -y
+6. open link https://pkg.jenkins.io/ then go to debian-stable to install package and copy the first command.
 
