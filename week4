@@ -4,4 +4,49 @@
 4. clear
 5. sudo apt install openjdk-8-jdk -y
 6. open link https://pkg.jenkins.io/ then go to debian-stable to install package and copy the first command.
+7. After that run this 3 command  sudo apt-get update
+    sudo apt-get install fontconfig openjdk-17-jre
+    sudo apt-get install jenkins
+8. Java –version
+9.sudo apt-get update -y
+10.sudo systemctl start jenkins
+11.sudo systemctl enable jenkins
+12.sudo systemctl status jenkins
+13. Then press 'q'
+14.sudo apt install maven -y
+15. sudo apt install git -y
+16.Open with public IP:8080
+17.Go to security group of EC2 instance
+18.select the Edit inbound rules of security
+19.Add Rules
+20.Save rules
+21.Open with
+ http:public IP:8080
+22.sudo cat  /var/lib/jenkins/secrets/initialAdminPassword
+23.Copy this  Password
+24. Install Suggested PlugIns
+25.Getting Started
+v)            Create First Admin User
+vi)         Type Username & Password
+vii)       Retype Confirm Password
+viii)     Type Full Name & Email Address
+ix)         Type Jenkins URL
+Start Using Jenkins
+xi)         Open Jekins Dashboard
+
+                                        How To Install Apache Tomcat 10 on Ubuntu 20.04
+1.sudo useradd -m -d /opt/tomcat -U -s /bin/false tomcat
+2.sudo apt update
+3.sudo apt install default-jdk
+4.java --version
+5.cd /tmp
+6.sudo apt install wget
+7.wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.23/bin/apache-tomcat-10.1.23.tar.gz
+8.sudo tar xzvf apache-tomcat-10.1.23.tar.gz -C /opt/tomcat --strip-components=1
+9.sudo chown -R tomcat:tomcat /opt/tomcat/
+
+
+
+
+  
 
